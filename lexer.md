@@ -44,3 +44,9 @@ void lex(char *code) {
   }
 }
  ```
+
+ ## 空白字元濾掉
+```{r}
+ char *next(char *p) {
+  while (isspace(*p)) p++;
+```

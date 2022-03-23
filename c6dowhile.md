@@ -5,8 +5,10 @@
     {
     next();
     a = e + 1;
+    stmt();
     if (tk == While)
     {
+      next();
       if (tk == '(')
         next();
       else
